@@ -1,0 +1,1 @@
+docker -H 192.168.0.40 build -t mypostgresclientdotnet -f Dockerfile .
