@@ -1,10 +1,10 @@
 version: '3'
 services:
   mypostgres:
-    build: ./postgres
+    build: ../postgres
     ports:
       - "5432:5432"
   node-client:
-    build: ./postgres-node-client
+    build: ../postgres-node-client
     depends_on:
       - "mypostgres"
