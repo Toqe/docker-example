@@ -14,7 +14,7 @@ public class App
 
         String url = "jdbc:postgresql://mypostgres:5432/docker";
         String user = "docker";
-        String password = "docker*";
+        String password = "docker";
 
         try (Connection con = DriverManager.getConnection(url, user, password);
                 Statement st = con.createStatement();
