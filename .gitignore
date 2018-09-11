@@ -333,3 +333,5 @@ ASALocalRun/
 
 
 postgres-dotnetcore-client/out/
+
+postgres-java-client/target/
