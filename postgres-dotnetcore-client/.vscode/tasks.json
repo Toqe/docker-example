@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/postgres-dotnetcore-client/postgres-dotnetcore-client.csproj"
+                "${workspaceFolder}/postgres-dotnetcore-client.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
