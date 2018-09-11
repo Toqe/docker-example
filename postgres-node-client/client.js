@@ -20,3 +20,5 @@ async function start() {
 }
 
 start();
+
+//setTimeout(start, 5000);
