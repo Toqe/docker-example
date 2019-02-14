@@ -16,6 +16,7 @@ async function start() {
 
     res = await client.query('SELECT version() as version');
     console.log('Postgres Version ' + res.rows[0].version);
+
     await client.end();
 }
 

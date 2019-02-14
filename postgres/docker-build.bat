@@ -1,1 +1,1 @@
-docker -H 192.168.0.40 build -t mypostgres -f Dockerfile .
+docker -H 192.168.0.58 build -t mypostgres -f Dockerfile .
